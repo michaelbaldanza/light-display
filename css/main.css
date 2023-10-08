@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.orb-container {
+  max-width: 1100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  margin: 0 1em;
+}
+
+.orb {
+  width: 10em;
+  height: 10em;
+  margin: 2.5em;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius:75%
+}
